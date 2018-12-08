@@ -4,6 +4,8 @@
 [![js-standard-style][standard-image]][standard-url]
 [![Conventional Commits][conventional-commits-image]][conventional-commits-url]
 [![Slack][slack-image]][slack-url]
+[![Codeship Status for lukeautry/tsoa](https://codeship.com/projects/cdce38d0-1f6b-0134-258e-1ed679ae6c9d/status?branch=master)](https://codeship.com/projects/160322)
+[![npm version](https://badge.fury.io/js/tsoa.svg)](https://badge.fury.io/js/tsoa)
 
 
 # DevOpsTerminal backend
