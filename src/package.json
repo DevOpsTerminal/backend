@@ -12,8 +12,6 @@
   "author": "Tomasz Sapletta",
   "license": "MIT",
   "devDependencies": {
-    "eslint-plugin-mocha": "^4.11.0",
-    "eslint-plugin-node": "5.1.1",
     "gulp": "^4.0.0",
     "gulp-eslint": "4.0.0",
     "gulp-nodemon": "^2.2.1"
@@ -21,7 +19,6 @@
   "dependencies": {
     "body-parser": "1.17.2",
     "express": "4.15.3",
-    "mongoose": "4.11.5",
     "swagger-ui-express": "2.0.6",
     "method-override": "2.3.9"
   },
