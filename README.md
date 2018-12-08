@@ -1,3 +1,11 @@
+[![Build Status][travis-image]][travis-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
+[![NPM version][npm-image]][npm-url]
+[![js-standard-style][standard-image]][standard-url]
+[![Conventional Commits][conventional-commits-image]][conventional-commits-url]
+[![Slack][slack-image]][slack-url]
+
+
 # DevOpsTerminal backend
 
 DevOpsTermina Swagger UI Spec to existing Node.js/Express.js project
@@ -36,12 +44,12 @@ Api documentation can be found on: `http://localhost:3000/api-docs`
 
 Stable version:
 ```bash
-npm i yargs --save
+npm i devopsterminal --save
 ```
 
 Bleeding edge version with the most recent features:
 ```bash
-npm i yargs@next --save
+npm i devopsterminal@next --save
 ```
 
 ## Usage :
@@ -50,7 +58,7 @@ npm i yargs@next --save
 
 ````javascript
 #!/usr/bin/env node
-const argv = require('yargs').argv
+const argv = require('devopsterminal').argv
 
 if (argv.ships > 3 && argv.distance < 53.5) {
   console.log('Plunder more riffiwobbles!')
@@ -82,7 +90,7 @@ Having problems? want to contribute? join our [community slack](http://devtoolsc
 
 ### Table of Contents
 
-* [Yargs' API](/docs/api.md)
+* [devopsterminal' API](/docs/api.md)
 * [Examples](/docs/examples.md)
 * [Parsing Tricks](/docs/tricks.md)
   * [Stop the Parser](/docs/tricks.md#stop)
@@ -93,7 +101,7 @@ Having problems? want to contribute? join our [community slack](http://devtoolsc
 * [Advanced Topics](/docs/advanced.md)
   * [Composing Your App Using Commands](/docs/advanced.md#commands)
   * [Building Configurable CLI Apps](/docs/advanced.md#configuration)
-  * [Customizing Yargs' Parser](/docs/advanced.md#customizing)
+  * [Customizing devopsterminal' Parser](/docs/advanced.md#customizing)
 * [Contributing](/contributing.md)
 
 
@@ -101,3 +109,18 @@ Having problems? want to contribute? join our [community slack](http://devtoolsc
 ## License
 
 DevOpsTerminal is released under [MIT License](https://opensource.org/licenses/MIT).
+
+
+
+[travis-url]: https://travis-ci.org/devopsterminal/devopsterminal
+[travis-image]: https://img.shields.io/travis/devopsterminal/devopsterminal/master.svg
+[coveralls-url]: https://coveralls.io/github/devopsterminal/devopsterminal
+[coveralls-image]: https://img.shields.io/coveralls/devopsterminal/devopsterminal.svg
+[npm-url]: https://www.npmjs.com/package/devopsterminal
+[npm-image]: https://img.shields.io/npm/v/devopsterminal.svg
+[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
+[standard-url]: http://standardjs.com/
+[conventional-commits-image]: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg
+[conventional-commits-url]: https://conventionalcommits.org/
+[slack-image]: http://devtoolscommunity.herokuapp.com/badge.svg
+[slack-url]: http://devtoolscommunity.herokuapp.com
