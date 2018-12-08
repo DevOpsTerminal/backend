@@ -1,2 +1,2 @@
 ::#!/usr/bin/env bash
-.\backend\gulp
+.\src\gulp

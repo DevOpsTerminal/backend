@@ -1,1 +1,1 @@
-node backend\server.js
+node ..\src\server.js

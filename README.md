@@ -28,7 +28,7 @@ Api documentation can be found on: `http://localhost:3000/api-docs`
 ## How it works
 
 ### Swagger API
-![docs swagger](docs/swagger-api.png.)
+![docs swagger](docs/swagger_api.png)
 
 ## License
 
