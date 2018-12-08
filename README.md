@@ -1,5 +1,6 @@
-# swagger-to-existing-nodejs-project
-Demo application that shows how to add Swagger UI Spec to existing Node.js/Express.js project
+# DevOpsTerminal backend
+
+DevOpsTermina Swagger UI Spec to existing Node.js/Express.js project
 
 ## Requirements
 
@@ -9,9 +10,8 @@ Demo application that shows how to add Swagger UI Spec to existing Node.js/Expre
 
 ## Usage
 
-* Install dependencies `npm i`
-* Start docker-compose `docker-compose up` or start you own MongoDB
-* Start server `gulp develop`
+    npm i
+    node server.js
 
 Api documentation can be found on: `http://localhost:3000/api-docs`
 
@@ -32,4 +32,4 @@ Api documentation can be found on: `http://localhost:3000/api-docs`
 
 ## License
 
-swagger-to-existing-nodejs-project is released under [MIT License](https://opensource.org/licenses/MIT).
+DevOpsTerminal is released under [MIT License](https://opensource.org/licenses/MIT).
