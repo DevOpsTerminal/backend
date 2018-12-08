@@ -1,3 +1,14 @@
+## TODO
+
+Docker for nodejs and gulp
+
+
+connection with swagger cli
+
+make it all in docker
+
+start in dokku
+
 # to preparing
 - apicra-file-scan
 

@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# swagger-to-existing-nodejs-project
+Demo application that shows how to add Swagger UI Spec to existing Node.js/Express.js project
 
-You can use the [editor on GitHub](https://github.com/DevOpsTerminal/backend/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Requirements
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* Node.js v6.11.0
+* MongoDB v3.4.6
+* Gulp v3.9.1
 
-### Markdown
+## Usage
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* Install dependencies `npm i`
+* Start docker-compose `docker-compose up` or start you own MongoDB
+* Start server `gulp develop`
 
-```markdown
-Syntax highlighted code block
+Api documentation can be found on: `http://localhost:3000/api-docs`
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## APICRA Scripts
 
-**Bold** and _Italic_ and `Code` text
+    app_init.bat
+    app_start.bat
+    gulp_init.bat
+    gulp_install.bat
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## How it works
 
-### Jekyll Themes
+### Swagger API
+![docs swagger](docs/swagger-api.png.)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DevOpsTerminal/backend/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## License
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+swagger-to-existing-nodejs-project is released under [MIT License](https://opensource.org/licenses/MIT).
