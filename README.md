@@ -104,6 +104,16 @@ Run the example above with `--help` to see the help for the application.
 Having problems? want to contribute? join our [community slack](http://devtoolscommunity.herokuapp.com).
 
 
+## Help wanted
+
+DevOpsTerminal wants additional maintainers!
+The library has increased in popularity and has quite a lot of pull requests and issues.
+[Please post in this issue](https://github.com/DevOpsTerminal/backend/issues/1)
+if you're willing to take on the role of a maintainer.
+
+All merged changes that touch 'real' code should include unit tests and pass linting/type checking.
+
+
 ## Documentation :
 
 ### Table of Contents
@@ -121,6 +131,7 @@ Having problems? want to contribute? join our [community slack](http://devtoolsc
   * [Building Configurable CLI Apps](/docs/advanced.md#configuration)
   * [Customizing devopsterminal' Parser](/docs/advanced.md#customizing)
 * [Contributing](/contributing.md)
+
 
 
 
