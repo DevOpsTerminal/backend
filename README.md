@@ -39,18 +39,34 @@ Api documentation can be found on: `http://localhost:3000/api-docs`
 ![docs swagger](docs/swagger_api.png)
 
 
+## Getting Started
 
-## Installation
+Clone the repo, change directory, install dependencies, build the code, and run it!
 
-Stable version:
-```bash
-npm i devopsterminal --save
+```sh
+git clone https://github.com/DevOpsTerminal/backend.git
+cd backend
+npm install
+npm run build
+npm run test
+npm start
 ```
 
-Bleeding edge version with the most recent features:
-```bash
-npm i devopsterminal@next --save
+Then navigate to http://localhost:3007 and click on the buttons to see some reactive events in action.
+
+## Deployment
+
+
+<a href="https://www.heroku.com/deploy/?template=https://github.com/DevOpsTerminal/backend"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" height="25px"></a>
+
+<a href="https://deploy.now.sh/?repo=https://github.com/DevOpsTerminal/backend"><img src="https://deploy.now.sh/static/button.svg" alt="Deploy to Now" height="25px"></a>
+
+Don't forget to set the environment variable `NODE_ENV=production` to avoid the slower, dev version of React. Like so:
+
+```sh
+npx now -e NODE_ENV=production DevOpsTerminal/backend
 ```
+
 
 ## Usage :
 
